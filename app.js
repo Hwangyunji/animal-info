@@ -14,8 +14,12 @@ function showProducts(obj) {
     const query = location.search;
     console.log(query);
     // ? URL query문을 object(변수)로 변경
-    const params = new URLSearchParams(query).get('category');
-    console.log(params);
+    let params = new URLSearchParams(query).get('category');
+
+    // params == null 이면 시작 페이지 dog 출력
+    if(params == null) {
+        params = 'dog'
+    }
 
     // 동물 데이터 출력
     obj.forEach(function(animal){
