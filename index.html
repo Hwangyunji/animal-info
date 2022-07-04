@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - dog</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./app.js"></script>
 </head>
 <body>
     <header id="main-header">
@@ -14,9 +16,9 @@
         </div>
         <nav id="gnb">
             <ul>
-                <li class="on"><a href="./">강아지</a></li>
-                <li><a href="cat.html">고양이</a></li>
-                <li><a href="bird.html">새</a></li>
+                <li class="on"><a href="index.html?category=dog">강아지</a></li>
+                <li><a href="cat.html?category=cat">고양이</a></li>
+                <li><a href="bird.html?category=bird">새</a></li>
             </ul>
         </nav>
     </header>
@@ -25,30 +27,7 @@
         <div class="container">
             <h2>강아지</h2>
             <div class="row">
-                <div class="col">
-                    <img src="./images/dog01.jpg" alt="dog1">
-                    <p class="name">강아지1</p>
-                </div>
-                <div class="col">
-                    <img src="./images/dog02.jpg" alt="dog2">
-                    <p class="name">강아지2</p>
-                </div>
-                <div class="col">
-                    <img src="./images/dog03.jpg" alt="dog3">
-                    <p class="name">강아지3</p>
-                </div>
-                <div class="col">
-                    <img src="./images/dog04.jpg" alt="dog4">
-                    <p class="name">강아지4</p>
-                </div>
-                <div class="col">
-                    <img src="./images/dog05.jpg" alt="dog5">
-                    <p class="name">강아지5</p>
-                </div>
-                <div class="col">
-                    <img src="./images/dog06.jpg" alt="dog6">
-                    <p class="name">강아지6</p>
-                </div>
+                <!-- 강아지 데이터 -->
             </div>
         </div><!-- container -->
     </section>

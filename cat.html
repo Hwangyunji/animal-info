@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cat</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./app.js"></script>
 </head>
 <body>
     <header id="main-header">
@@ -14,9 +16,9 @@
         </div>
         <nav id="gnb">
             <ul>
-                <li><a href="./">강아지</a></li>
-                <li class="on"><a href="cat.html">고양이</a></li>
-                <li><a href="bird.html">새</a></li>
+                <li class="on"><a href="index.html?category=dog">강아지</a></li>
+                <li class="on"><a href="cat.html?category=cat">고양이</a></li>
+                <li><a href="bird.html?category=bird">새</a></li>
             </ul>
         </nav>
     </header>
@@ -25,30 +27,7 @@
         <div class="container">
             <h2>고양이</h2>
             <div class="row">
-                <div class="col">
-                    <img src="./images/cat01.jpg" alt="cat1">
-                    <p class="name">고양이1</p>
-                </div>
-                <div class="col">
-                    <img src="./images/cat02.jpg" alt="cat2">
-                    <p class="name">고양이2</p>
-                </div>
-                <div class="col">
-                    <img src="./images/cat03.jpg" alt="cat3">
-                    <p class="name">고양이3</p>
-                </div>
-                <div class="col">
-                    <img src="./images/cat04.jpg" alt="cat4">
-                    <p class="name">고양이4</p>
-                </div>
-                <div class="col">
-                    <img src="./images/cat05.jpg" alt="cat5">
-                    <p class="name">고양이5</p>
-                </div>
-                <div class="col">
-                    <img src="./images/cat06.jpg" alt="cat6">
-                    <p class="name">고양이6</p>
-                </div>
+                <!-- 고양이 데이터 -->
             </div>
         </div><!-- container -->
     </section>
